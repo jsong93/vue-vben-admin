@@ -142,7 +142,6 @@
       function readerData(rawFile: File) {
         loadingRef.value = true;
         return new Promise((resolve, reject) => {
-          debugger;
           const reader = new FileReader();
           reader.onload = async (e) => {
             try {
